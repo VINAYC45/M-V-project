@@ -1,0 +1,129 @@
+
+/* typography global  */
+*{margin:0; padding:0; box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+*:after,*:before{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+table { border-collapse:collapse; border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal; }
+caption,th {text-align:left;}
+
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+header,nav,section,article,aside,footer,hgroup,figure {display: block; }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {-webkit-appearance: none;margin: 0;}
+/* Firefox */
+input[type=number] {-moz-appearance: textfield;}
+
+button:focus, input:focus, .btn:focus,.form-control:focus{outline: none ;box-shadow: none;outline-color: transparent;outline-width: 0;border-color: unset;border: unset;}
+h1,h2,h3,h4,h5,h6,p,ul,ol,figure{margin-bottom: 0;}
+html, body{max-width: 100%;}
+img{max-width: 100%;height: auto;}
+.modal-content{border: 0;}
+ul,li{list-style: none;padding: 0;}
+a, a:hover{text-decoration: none;outline: 0;outline-color: transparent;outline-width: 0;-webkit-appearance: none;-moz-appearance: none;appearance: none;color: initial;}
+button{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+.container{max-width: 1420px;padding-inline: 20px}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;&display=swap');
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  
+   /* background colors */
+   --whitebg:#FFF;
+   --cementbg:#F7F7F7;
+   --cementbg-sec:#F9F9F9;
+   --graybg: #0000005C;
+   --blackbg:#111010;
+   /* colors texts */
+   --clr-black:#111010;
+   --clr-white:#FFF;
+   --clr-cement:#111010;
+   --clr-lightwhite:#ECECEC;
+   --clr-cementdark:#616161;
+   /* font weights*/
+   --fw7:700;
+   --fw6:600;
+   --fw5:500;
+   --fw4:400;
+   --fw3:300;
+   --fw2:200;
+}
+body{font-size: 20px;font-weight: var(--fw4);line-height: 1;color: var(--clr-black);font-family: 'Poppins',sans-serif !important;font-synthesis: none;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+h1 , .fs72{font-size: 72px;font-weight: var(--fw7);line-height: 1;color: var(--clr-white);}
+h2 , .fs56{font-size: 56px;font-weight: var(--fw7);line-height: 1;color: var(--clr-black);}
+h3 , .fs48{font-size: 48px;font-weight: var(--fw7);line-height: 1;color: var(--clr-black);}
+h4 , .fs40{font-size: 40px;font-weight: var(--fw7);line-height: 1;color: var(--clr-black);}
+h5 , .fs36{font-size: 36px;font-weight: var(--fw7);line-height: 1;color: var(--clr-black);}
+h6 , .fs30{font-size: 30px;font-weight: var(--fw7);line-height: 1;color: var(--clr-black);}
+.fs26{font-size: 26px;font-weight: var(--fw4);line-height: 1.5;color: var(--clr-cementdark);}
+p,.fs20{font-size: 20px;font-weight: var(--fw4);line-height: 1.5;color: var(--clr-cementdark);}
+.fs16{font-size: 16px;font-weight: var(--fw4);line-height: 1.5;color: var(--clr-cementdark);}
+.fs14{font-size: 14px;font-weight: var(--fw4);line-height: 1.5;color: var(--clr-cementdark);}
+@media screen and (max-width:768px){
+h1 , .fs72{font-size: 72px;}
+h2 , .fs56{font-size: 26px;}
+h3 , .fs48{font-size: 30px;}
+h4 , .fs40{font-size: 28px;}
+h5 , .fs36{font-size: 34px;}
+h6 , .fs30{font-size: 24px;}
+.fs26{font-size: 22px}
+p,.fs20{font-size: 18px}
+.fs16{font-size: 14px;}
+.fs14{font-size: 12px;}
+.btn_custom,.btn_custom-black{min-width:153px;}
+}
+
+
+/* button styles */
+.btn_custom,.btn_custom:focus,.btn_custom:target,.btn_custom:hover,.btn_custom:focus-visible{min-width: 180px;background-color: var(--whitebg);color: var(--clr-black);font-size: 16px;font-weight: 700;line-height: 1.5;text-align: center;height: 46px;display: flex;align-items: center;justify-content: center;border:none;}
+.btn_custom-black,.btn_custom-black:focus,.btn_custom-black:target,.btn_custom-black:hover,.btn_custom-black:focus-visible{min-width: 180px;background-color: var(--blackbg);color: var(--clr-white);font-size: 16px;font-weight: 700;line-height: 1.5;text-align: center;height: 46px;display: flex;align-items: center;justify-content: center;border:none;}
